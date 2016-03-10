@@ -16,4 +16,4 @@ Commit can be most related to the save function in word. More specifically a com
 
 * What is a merge conflict?
 
-A merge conflict happens in certain instances when your a developer is trying to save over the master file, these instance are the branches being merged contain different versions of the same file or in cases where one is trying to merge two branches and no master..
+A merge conflict happens in certain instances when your a developer is trying to save over the master file, these instance are the branches being merged contain different versions of the same file or in cases where one is trying to merge two branches and no master...
