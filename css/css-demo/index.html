@@ -5,6 +5,9 @@
   <!-- We're using Google Fonts, which you can also do on your sites, but you don't need to know how for any assessments in this unit. -->
   <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="styles/elegant-styles.css" type="text/css">
+  <link rel="stylesheet" href="styles/fixed-contact.css" type="text/css">
+  <link rel="stylesheet" href="styles/practice.css" type="text/css">
+
 </head>
 <body>
   <h1 id="resume-title">Resume for Imogen Ary-Perrson</h1>
@@ -22,7 +25,7 @@
     <h2 class="experience-category">Relevant Work Experience</h2>
     <section class="job">
       <h3>General Practitioner, The Circus</h3>
-      <ul>
+      <ul class="list">
         <li>Wrangled flaming hula hoops</li>
         <li>Served as first assistant to trapeze team</li>
         <li class="featured">Provided quality assurance for cotton candy</li>
@@ -30,7 +33,7 @@
     </section>
     <section class="job">
       <h3>Wildlife Wrangler, The Zoo</h3>
-      <ul>
+      <ul class="list">
         <li>Trained entire dancing seal troupe</li>
         <li>Regularly chased down escaped tigers</li>
         <li class="featured">Saved a small child from a hungry horse</li>
@@ -38,7 +41,7 @@
     </section>
     <section class="job">
       <h3>Cone Dipper, Imogen's Ice Cream Shack</h3>
-      <ul>
+      <ul class="list">
         <li>Dipped ice cream cones in flavored wax</li>
         <li class="featured">Was employee of the month 12 times a year</li>
         <li>Was the only employee</li>
@@ -57,4 +60,19 @@
     </section>
   </section>
 </body>
+
+<!--
+What does the "Cascading" part of Cascading Style Sheets mean? When there is a conflict between two CSS rules that select the same element, how does your browser decide which rule to use?
+
+Cascading in CSS is such that when your browser reads the code you have written it will apply the code in a defined order. CSS allows user to set up multiple properties affecting the same element. When this conflict happens your browser will apply the properties in a cascading order. First by types of Style Sheets where Author be most prioritized followed by the User. Then it will alter selectors by specificity. Meaning that the more specific a selector is the more precedence it will get. Lastly they will sort the rules by the order it was defined, where rules that are defined LATER will have higher precedence than those defined earlier.
+
+Find a cheat sheet or quick guide on CSS selectors, or refer to a cheat sheet you've already bookmarked. What is a pseudoselector? Write a CSS rule that uses a pseudoselector.
+
+A pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected. The pseudo-selector will be element specified that will be modified by the pseudo-class.
+
+How can you use CSS to select the child element of another element (for instance, a section inside another section, or an li inside a ul but not inside an ol)? Add an example of such a rule in your CSS.
+
+You can use child and sibling selectors.
+
+-->
 </html>
