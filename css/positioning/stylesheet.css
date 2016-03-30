@@ -1,0 +1,19 @@
+.oct {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+#glasses {
+  position: relative;
+  top: 325px;
+  left: 490px;
+}
+
+#hat {
+  position: absolute;
+  top: 190px;
+  left: 440px;
+}
