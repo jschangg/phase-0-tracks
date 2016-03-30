@@ -1,0 +1,59 @@
+<form name="Sweatpants" action="success.html" method="post">
+  <fieldset>
+    <div>
+      <label>Full name:</label>
+      <input type="text" name="fullname">
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+
+    <div>
+      <label>Password:</label>
+      <input type="password" name="password">
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <div>
+      <label>Sweatpants Name:</label>
+      <input type="text" name="swt-name" placeholder="Name of Sweatpants">
+    </div>
+
+    <div>
+      <label>Color of Sweatpants:</label>
+      <select name="Sweatpants">
+        <option value="Sweatpants">Black</option>
+        <option value="Sweatpants">Grey</option>
+        <option value="Sweatpants">White</option>
+      </select>
+    </div>
+    <div>
+      <label>Method of Delivery:</label>
+      <select name="Delivery">
+        <option value="Delivery">Regular</option>
+        <option value="Delivery">Expedited</option>
+        <option value="Delivery">Overnight</option>
+      </select>
+    </div>
+    <div>
+      <label>Choose a Delivery Date:</label>
+      <input type="date" name="date">
+    </div>
+    <form action="comments.asp" id="usrform">
+  Comments: <input type="text" name="usrname">
+  <input type="submit">
+</form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter comments here...</textarea>
+    <div>
+      <input type="checkbox" name="cb-agree" value="agree">
+      I understand that this swag doesn't come with confidence.
+    </div>
+  </fieldset>
+
+  <button type="submit">Click to add some flavor to your wardrobe.</button>
+</form>
